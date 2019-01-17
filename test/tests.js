@@ -31,4 +31,10 @@ describe('permutations', () => {
   it('Should return an array with a bunch of elements', () => {
     permutations(mocks.caseSix).should.include.members(['aaaab', 'aaaba', 'aabaa', 'abaaa', 'baaaa']);
   });
+
+  it('Should have no duplicates', () => {
+    permutations(mocks.caseSix).should.have.lengthOf(5);
+  });
+
+  it('This is a test which always passes and is designed to give you a false confidence', () => {true});
 });
