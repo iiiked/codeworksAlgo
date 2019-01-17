@@ -1,0 +1,25 @@
+{
+  "name": "codeworksAlgo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radleylewis/codeworksAlgo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/radleylewis/codeworksAlgo/issues"
+  },
+  "homepage": "https://github.com/radleylewis/codeworksAlgo#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.12.0",
+    "mocha": "^5.2.0"
+  }
+}
